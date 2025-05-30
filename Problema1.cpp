@@ -12,9 +12,9 @@ int main() {
 	P=(C1+C2+C3)/3;
 	cout<<"El promedio es:"<<P<<endl;
 	if (P>=70){
-		cout << "Esta aprobado" << endl;
+		cout << "Esta aprobado" <<P<< endl;
 	}else {
-		cout<< "Esta reprobado" << endl;
+		cout<< "Esta reprobado" <<P<< endl;
 	}
 	return 0;	
 }
