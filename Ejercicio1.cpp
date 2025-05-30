@@ -1,8 +1,13 @@
 #include<iostream>
-using namespace std;
+#include <string>
 
+using namespace std;
 int main() {
-	double C1,C2,C3,P;
+string nombre;
+double C1,C2,C3,P;
+ cout << "Ingresa el nombre del estudiante: ";
+  getline(cin, nombre);
+
 	cout<<"Ingrese la primera calificacion:  ";
 	 cin>>C1;
 	cout<<"Ingrese la segunda calificacion: ";
@@ -11,8 +16,10 @@ int main() {
 	 cin>>C3;
 	P=(C1+C2+C3)/3;
 	if (P>=70){
+		cout <<nombre << endl;
 		cout << "Esta aprobado "<< P << endl;
 	}else {
+		cout <<nombre << endl;
 		cout<< "Esta reprobado "<< P<< endl;
 	}
 	return 0;	
