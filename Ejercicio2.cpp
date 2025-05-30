@@ -14,4 +14,4 @@ int main() {
 		cout << El precio a pagar es:<<PP << endl;
 	}
 	return 0;	
-} Selectivas.cpp
+}
